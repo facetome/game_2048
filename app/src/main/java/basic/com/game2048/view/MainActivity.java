@@ -1,0 +1,19 @@
+package basic.com.game2048.view;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
+
+import basic.com.game2048.R;
+
+/**
+ * Created by basic on 2017/2/7.
+ */
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+    }
+}
